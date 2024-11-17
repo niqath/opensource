@@ -1,0 +1,6 @@
+N, X, Y = map(int, input().split())
+total_marks = N * X
+if Y % X == 0 and 0<=Y<=total_marks:
+    print("YES")
+else:
+    print("NO")
